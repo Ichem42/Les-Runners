@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Open+Sans:wght@300&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+nav{
+    display: flex;
+
+    /* pour separer au extremité les deux titres */
+    justify-content: space-between;
+    margin: 10px 80px;
+}
+
+nav h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    
+    
+}
+                                    /* ONGLETS */
+.onglets{
+    margin-top: 60px;
+    
+}
+
+.onglets a{
+    /* pour espacer les onglets */
+    margin-right: 20px;
+
+    /* pour enlever le bleu des onglets */
+    text-decoration: none;
+
+    color: rgba(156, 151, 151, 0.877);
+    font-size: 18px;
+}
+
+.onglets a:hover{
+    color: rgb(38, 219, 219);
+}
+                            /* ARTICLE 1 */
+.article1{
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 30px;
+    margin: 10px 80px;     
+}
+
+.gauche{
+    margin-right: 40px;
+    margin:7px ;
+}
+
+.gauche img{
+    width: 400px;
+    height: auto;
+    margin: 10px 80px;
+}
+
+                            /* ARTICLE 2 */
+
+.article2{
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 30px; 
+    margin: 10px 80px;                         
+}
+
+                        /* FOOTER */
+
+                        
+.footer{
+   justify-content: space-between;
+   margin: auto;
+   
+}
+
+.colonnes{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(245, 241, 241, 0.822);
+    padding: 25px;
+    margin: 10px 0px;
+    margin-top: 40px
+
+}
+
+.colonnes {
+    text-align: center;
+
+}
+
+
+.colonnes p{
+    color: rgba(156, 151, 151, 0.877)   
+
+}
+
+
+
+
+
